@@ -6,18 +6,18 @@
 }
 /* Tablets and ipads */
 @media(min-width:769px){
-    /* .col3-serv {
+    .col3-serv {
         display: flex;
         justify-content: space-between;
         align-items: center;
-    } */
+    }
 
-    /* .col3-serv .col {
+    .col3-serv .col {
        
         width:300px;
         margin-top: 80px;
      
-    } */
+    }
     /* .col3-serv .col img {
         width: 300px;
         height: 200px;
@@ -70,14 +70,32 @@
 }
 /* Mobile phones */
 @media (max-width:768px) {
+
+    .hdrsec .logo img {
+       
+        margin-left: 124px;
+        margin-top: 69px;
+    }
+    .hdrtxt h1 {
+        font-size: 47px;
+    }
+
     .col3-serv {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
         flex-direction: column;
+        margin:auto;
+        margin-top: -118px;
     }
     .one-sec {
-        margin: 20px 20px;
+        margin: 20px auto;
+    }
+    .col-txt p {
+        color: white;
+        margin: auto;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
     }
     .facility {
         margin-top: 713px;
@@ -89,8 +107,9 @@
     .col4-sec {
         flex-wrap:wrap;
         height:auto;
-        
+        justify-content: center;
         }
+
     
     .col4-sec .col {
         height: 200px;
@@ -102,7 +121,7 @@
     .col4-sec .col img {
         width: 100%;
         height: 150px;
-    }
+           }
     
 .col4-sec .col h3 {
    font-size: medium;
@@ -112,17 +131,22 @@
 }
 
 .main-head p {
-    margin-bottom: 10px;
-    margin-top: 10px;   
+    margin-bottom: 30px;
+    margin-top: 20px; 
+    font-size: 14px;  
 }
 .head-text h1 {
     margin-bottom: 50px;
+    margin-right: 10px;
 }
 .head-text p{
     margin-top:50px;
 }
 .brdr-btn{
-    margin-top: 50px;
+    margin: 82px 71px;
+    width: 200px;
+    height: 60px;
+    font-size: 15px;
 }
 
 .contact{
@@ -130,7 +154,7 @@
 }
 .test-head {
     
-    margin: auto;
+    margin:  70px auto;
 }
 .testcol2 {
     display: block;
@@ -142,11 +166,11 @@
 }
 .test-col{
     margin-bottom: 20px;
-    margin-left: 80px;
+    margin-left: 20px;
 }
 .test-col .box-text {
     text-align: justify;
-    /* width: 447px; */
+    width: 90%;
     padding-left: 100px;
     margin-bottom: -10px;
     font-size: 14px;
@@ -169,24 +193,41 @@
 
 }
 
+@media(max-width:577){
+
+}
 
 @media(max-width:468px ){
  
     .hdrsec .logo img {
-        margin-left: 150px; 
+        margin-left: 90px; 
     } 
     .hdrsec .hdrtxt h1 {
-        font-size: 48px;
+        font-size: 40px;
     }
     .hdrbtn {
         background: #FC4539;
-        margin: 10px 104px;
+        margin: -10px 48px;
         padding: 10px;
         width: 239px;
         height: 57px;
         color: #DCDCDC;
         font-size: 23px;
         border-radius: 50px;
+    }
+
+    .col3-serv {
+       width:100%;
+       margin: 0  0px auto;
+        justify-content: center;
+    }
+    .col3-serv .col-s img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .facility {
+        /* margin-top: 819px; */
     }
     .line {
         margin:auto;
@@ -296,7 +337,7 @@
         }
 
         .hdrsec .hdrtxt h1 {
-            font-size: 50px;
+            font-size: 42px;
             margin-left:20px;
             color: #DCDCDC;
             font-weight: 300; 

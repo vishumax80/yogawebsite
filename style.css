@@ -218,10 +218,10 @@ font-family: 'Roboto', sans-serif;
 }
 
 .col-txt p{
-    color:#807e7b;
+    color:white;
     margin:auto;
     font-family: 'Open Sans', sans-serif;
-    font-size:20px;
+    font-size:16px;
     
 }
 
@@ -499,11 +499,12 @@ testimonial section
     margin-bottom: 10px;   
 } 
 .test-col .box-text{
-    line-height: 38px;
+    line-height: 25px;
     width:550px;
     padding-left: 100px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 /************
@@ -535,7 +536,7 @@ Footer section
     }
 
 .col3-ftr h2{
-        color:white;
+        color:#FC4539;
         text-align: left;     
         width:300px;
         font-size: 30px;
@@ -543,7 +544,7 @@ Footer section
 
 }
 .col3-ftr p{
-    color:#FC4539;
+    color:white;
     margin-top: 20px;
     text-align: left;
     padding-left: 5px;
