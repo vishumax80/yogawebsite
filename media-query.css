@@ -296,7 +296,7 @@
     }
 
     .head-text h1 {
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
         margin-left: -6px;
         margin-top: -25px;
@@ -306,14 +306,14 @@
         .head-text p {
             font-size: 20px;
             width:auto;
-            margin-top: -15px;
+            margin-top: -48px;
             margin-left: -6px;
 }
                   
-    .brdr-btn {        
-        /* margin: 0 50px;
-        padding: 0px;
-        margin-top: 62px; */
+    .brdr-btn {
+    margin: 0 51px;
+    padding: 11px;
+    margin-top: 52px;
     }
     .test-head{
         align-items: center;
