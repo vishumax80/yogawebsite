@@ -352,21 +352,117 @@
             font-size: 23px;
             border-radius: 50px;
         }
-        .col-txt .color-btn {
-            margin-left: 46px;
+
+        .col3-serv {
+           
+            margin: -92px 0px auto;
+            justify-content: center;
         }
 
-        .head-text h1{
-            position: absolute;
-            left:15%;
-            top:10%;
-            z-index: 999;
+        .col-txt {
             
+            margin: 30px auto;
         }
-        .head-text p {
-            font-size: 15px;
-          
+
+        .col-txt h3 {
+            text-align: center;
+        }
+        .col-txt p {
+            margin: auto;
+            font-size: 13px;
+            text-align: center;
+            width: 80%;
+        }
+
+        .col-txt .color-btn {
+            margin-left: 60px;
+        }
+
+        .col4-sec .col-abt img {
+            width: 200px;
+            height: 200px;
+        }
+        .col-abt {
+           
+            margin-bottom: -300px;
+        }
+        .col-abt .abt-info {
+            bottom: 302px;
+            left: 0;
+            position: absolute;
+            text-align: left;
         }
         
+        .col4-sec .col-abt h3 {
+           
+            width: 96px;
+            font-size: 16px;
+        }
+        .col4-sec .col-abt p {
+            font-size: 14px;
+        }
 
+        .brdr-btn {
+            margin: 0 33px;
+            padding: 0px;
+            margin-top: 45px;
+        }
+        .head-text p {
+            font-size: 13px;
+            width: auto;
+            margin-top: -12px;
+            margin-right: 12px;
+        }
+        .col3-serv .col-s {
+           
+            width: 212px;
+        }
+        .col-s .col-info {
+           
+            width: 220px;
+           
+        }
+        
+        .head-text h1{
+            position: absolute;
+            left:5%;
+            top:10%;
+            z-index: 999; 
+        }
+
+        .test-head {
+           
+            margin-left: 8px;
+        }
+        
+        .testcol2 {
+           
+            width: 80%;
+            margin-bottom: 30px;
+        }
+        .test-col .box-text {
+           
+            line-height: 1;
+        }
+        
+        .col3-ftr {
+          
+            margin-left: 50px;
+        }
+        .cont-des p {
+            width: 140px;
+
+        }
+        .end-ftr{
+           
+        
+        }
+        .footer-base .end-ftr p {
+            font-size: 12px;
+            margin:auto;
+            width:auto;
+            line-height: 1;
+            margin-top: 24px;
+            
+        }
   }
