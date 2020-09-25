@@ -465,14 +465,16 @@ testimonial section
     margin:auto;
     height:100%;
     display: flex;
-    /* justify-content:center;
-    align-items: center; */
+    justify-content:center;
+    align-items: center;
     margin-bottom: 56px;
+   
 
 }   
 .test-col{
-    width:auto;
+    width:300px;
     margin:auto;
+    margin-bottom: 30px;
     
 }
 .test-col img{
@@ -499,11 +501,11 @@ testimonial section
 } 
 .test-col .box-text{
     line-height: 25px;
-    width:550px;
+    width:500px;
     padding-left: 100px;
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
-    
+   
 }
 
 /************
