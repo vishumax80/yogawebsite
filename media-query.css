@@ -296,10 +296,10 @@
     }
 
     .head-text h1 {
-        font-size: 30px;
+        /* font-size: 30px;
         text-align: center;
-        margin-left: -20px;
-        margin-top: -25px;
+        margin-left: -6px;
+        margin-top: -25px; */
        
     }
 
@@ -311,9 +311,9 @@
 }
                   
     .brdr-btn {        
-        margin: 0 50px;
+        /* margin: 0 50px;
         padding: 0px;
-        margin-top: 62px;
+        margin-top: 62px; */
     }
     .test-head{
         align-items: center;
@@ -351,7 +351,7 @@
         justify-content: center; */
     }
     .col3-ftr p {
-        font-size: 20px;
+        font-size: 16px;
         width: 253px;
         margin-bottom: -10px;
     }
@@ -437,16 +437,18 @@
             font-size: 14px;
         }
 
-        .brdr-btn {
-            margin: 0 33px;
-            padding: 0px;
-            margin-top: 45px;
-        }
+       
+            .brdr-btn {
+                margin: 0 56px;
+                padding: 11px;
+                margin-top: 60px;
+            }
+        
         .head-text p {
-            font-size: 13px;
+            /* font-size: 13px;
             width: auto;
             margin-top: -12px;
-            margin-right: 12px;
+            margin-right: 12px; */
         }
         .col3-serv .col-s {
            
@@ -459,10 +461,7 @@
         }
         
         .head-text h1{
-            position: absolute;
-            left:5%;
-            top:10%;
-            z-index: 999; 
+          font-size:20px;
         }
 
         .test-head {
@@ -477,12 +476,13 @@
         }
         .test-col .box-text {
            
-            line-height: 1;
+            line-height: 2;
         }
         
         .col3-ftr {
           
             margin-left: 50px;
+            font-size: 16px;
         }
         .cont-des p {
             width: 140px;
@@ -500,4 +500,4 @@
             margin-top: 24px;
             
         }
-  }
+    }
