@@ -196,12 +196,12 @@ font-family: 'Roboto', sans-serif;
  }
  .one-sec{
     border:1px solid transparent;
-    width:100%;
-   
+    width:100%;  
 }
 .col-txt{  
-   margin:auto;
-  
+    margin: 50px 50px;
+    width:100%;
+    text-align: center;
 }
 
 .col-txt h3{
