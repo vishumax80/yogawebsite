@@ -277,6 +277,10 @@
     .one-sec {
         margin: 20px auto;
     }
+
+    .col-txt{
+        height:auto;
+    }
     .col-txt p {
         color: white;
         margin: auto;
@@ -407,7 +411,7 @@
     }
     }
 
-@media(max-width:550px){
+/* @media(max-width:550px){
     .testcol2 {
        width:100%;
     }
@@ -418,7 +422,10 @@
         font-size: 15px;
       
     }
-    }
+    } */
+
+   
+
 @media(max-width:468px){
  
     .hdrsec .logo img {
@@ -450,6 +457,7 @@
 
     .facility {
         /* margin-top: 819px; */
+        height:auto;    
     }
     .line {
         margin:auto;
@@ -457,19 +465,21 @@
     .col-txt {
         margin-top: 10px;
         margin-left: 0;
+        text-align: center;
+        font-size: 7px;
+        height:auto;
     }
     .col-txt .color-btn {
-        margin-left: 113px;
-        /* margin:auto; */
-        margin-top: 2px;
+        
+       
     }
     .col-txt h3 {
         text-align: center;
         margin-top: 20px;
     }
     .col-txt p {
-        margin: auto;
-        font-size: 20px;
+        margin:  -7px auto;
+        font-size: 18px;
         text-align: center;
         width: 100%;
 
@@ -482,6 +492,8 @@
         
         flex-wrap: wrap;
         justify-content: center;
+        margin-left:20px;
+        width:100%;
     }
     .main-head p {
         margin-bottom: 30px;
@@ -589,7 +601,20 @@
         
     }
 
-    @media(max-width:320px ){
+    @media (max-width: 440px){
+.col4-sec {
+    width: auto;
+}
+
+    @media(max-width:325px){
+        .col-txt p {
+            font-size: 15px;
+            
+        }
+    }
+  
+
+    @media(max-width:320px ) {
         .hdrsec .logo img {
             width: 102px;
            margin-left:90px;
@@ -614,13 +639,14 @@
 
         .col3-serv {
            
-            margin: -92px 0px auto;
+            /* margin: 107px 0px auto; */
             justify-content: center;
         }
 
         .col-txt {
             
-            margin: 30px auto;
+            margin: 86px auto;
+            text-align: center;
         }
 
         .col-txt h3 {
@@ -628,14 +654,18 @@
         }
         .col-txt p {
             margin: auto;
-            font-size: 13px;
+            font-size: 15px;
             text-align: center;
             width: 80%;
         }
-
-        .col-txt .color-btn {
-            margin-left: 60px;
-        }
+   
+            .col-txt .color-btn {
+                margin-left: 72px;
+                width: 170px;
+                font-size: 12px;
+               
+            }
+        
 
         .col4-sec .col-abt img {
             width: 200px;
@@ -651,12 +681,16 @@
             position: absolute;
             text-align: left;
         }
-        
+        .col4-sec {
+           
+            margin: 40px;
+        }
         .col4-sec .col-abt h3 {
            
             width: 96px;
             font-size: 16px;
         }
+
         .col4-sec .col-abt p {
             font-size: 14px;
         }
@@ -672,14 +706,17 @@
                 font-size: 24px;
                 margin-top: 0px;
             }
+
         .head-text p {
             font-size: 18px;
             margin-top: 10px;
         }
+
         .col3-serv .col-s {
-           
+            
             width: 212px;
         }
+
         .col-s .col-info {
            
             width: 220px;
@@ -698,15 +735,18 @@
         .test-col img {
           
         }
+
         .test-col {
            display: flex;
            flex-direction: column;
            justify-content: center;
            align-items: center;
         }
+
         .test-col .line {
             margin-left: 120px;
         }
+
         .test-col .box-text {
            width:100%;
             line-height: 2;
@@ -726,10 +766,7 @@
             width: 140px;
 
         }
-        .end-ftr{
-           
-        
-        }
+      
         .footer-base .end-ftr p {
             font-size: 12px;
             margin:auto;
